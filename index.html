@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tabs - Jquery</title>
+	<link rel="icon" href="img/fox.svg">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<script type="text/javascript">
+		document.documentElement.className += ' js';
+	</script>
+
+	<header class="header">	
+		<ul class="menu">
+			<li><a href="#animais">Animais</a></li>
+			<li><a href="#florestas">Florestas</a></li>
+			<li><a href="#sobre">Sobre</a></li>
+		</ul>
+	</header>
+
+	<section class="container animais" id="animais" data-group="animais">
+		<h1>Animais Espirituais</h1>
+		<ul class="tab-menu">
+			<li><a href="#fox" data-click="fox">Fox</a></li>
+			<li><a href="#firefox" data-click="firefox">FireFox</a></li>
+			<li><a href="#wolf" data-click="wolf">Wolf</a></li>
+		</ul>
+
+		<div class="item" id="fox" data-target="fox">
+			<div class="item-img">
+				<img src="img/fox.jpg" alt="Fox">
+				<h2>Fox</h2>
+			</div>
+			<div class="item-info">
+				<h3>Características</h3>
+				<p>
+					As raposas têm corpo e cauda longos, cobertos por pêlo vermelho. 
+					Também aparecem em várias cores, como prata, preto, platina e muito mais. Têm pelo preto nas patas, 
+					nas pontas das orelhas e um característico tufo branco na ponta da cauda. Essas raposas têm focinhos alongados 
+					e caninos longos e afiados.
+				</p>
+				<h3>Habitat</h3>
+				<p>
+					As raposas são incrivelmente bem adaptadas. Elas podem sobreviver em um grande número de habitats 
+					diferentes e podem até ser consideradas um animal urbano. Alguns ecossistemas comuns que as 
+					raposas costumam incluir florestas, pastagens, desertos, montanhas e desenvolvimentos suburbanos.
+				</p>
+			</div>
+		</div>
+
+		<div class="item" id="firefox" data-target="firefox">
+			<div class="item-img">
+				<img src="img/firefox.jpg" alt="FireFox">
+				<h2>FireFox</h2>
+			</div>
+			<div class="item-info">
+				<h3>Características</h3>
+				<p>
+					O panda-vermelho ou panda-ruivo, também conhecido como raposa-de-fogo ou gato-de-fogo, 
+					é um pequeno mamífero arborícola e a única espécie do gênero Ailurus. Pertence à família Ailuridae, 
+					mas já foi classificado nas famílias dos guaxinins e ursos.
+				</p>
+				<h3>Habitat</h3>
+				<p>
+					Os pandas-vermelhos são encontrados principalmente em florestas temperadas, entre 2 200 e 4 800 metros 
+					de altitude, nos Himalaias, principalmente na região dos contrafortes ocidentais no oeste do Nepal, 
+					sul do Tibete, Sikkim, Assam e Butão, e em montanhas do norte de Mianmar e do sul da China, 
+					nas províncias de Sichuan (Montanhas Hengduan) e Yunnan (Montanhas Gongshan).
+				</p>
+			</div>
+		</div>
+
+		<div class="item" id="wolf" data-target="wolf">
+			<div class="item-img">
+				<img src="img/wolf.jpg" alt="wolf">
+				<h2>Wolf</h2>
+			</div>
+			<div class="item-info">
+				<h3>Características</h3>
+				<p>
+					Os lobos são mamíferos carnívoros, pertencentes à família canidae, a mesma de cães, raposas, etc. 
+					É parente bem próximo do cão doméstico e acredita-se que este tenha se originado através da domesticação de lobos cinzentos. 
+					Pertencentes ao gênero Canis, há três espécies vivas: Lobo cinzento, Lobo vermelho e o lobo etíope, 
+					as outras são classificadas como subespécies.
+				</p>
+				<h3>Habitat</h3>
+				<p>
+					Nas regiões mais frias (Norte) são maiores e nas regiões mais quentes (Sul) vão diminuindo. 
+					Machos pesam em média 50 kg e fêmeas 45 kg, apesar de haver registros de um lobo com mais de 
+					70 kg na América do Norte.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="florestas" id="florestas" data-group="florestas">
+		<div class="container">
+			<h1>Florestas Termais</h1>
+			<ul class="tab-menu">
+				<li><a href="#estrada" data-click="estrada">Estrada</a></li>
+				<li><a href="#sol" data-click="sol">Sol</a></li>
+				<li><a href="#verde" data-click="verde">Verde</a></li>
+			</ul>
+
+			<div class="item" id="estrada" data-target="estrada">
+				<div class="item-img">
+					<img src="img/estrada.jpg" alt="Estrada">
+					<h2>Estrada</h2>
+				</div>
+				<div class="item-info">
+					<h3>Características</h3>
+					<p>
+						A Rota 66 é uma rodovia norte-americana do U.S. Highway System.Também é a estrada mais 
+						famosa do mundo. Foi estabelecida em 11 de novembro de 1926. Iniciava em Chicago, 
+						Illinois, passava pelos estados de Missouri, Kansas, Oklahoma, Texas, Novo México, Arizona e 
+						terminava na cidade de Santa Mónica.A construção de novas vias interestaduais, o trânsito da rodovia foi desviado, com isso o dinheiro que os 
+						viajantes deixavam no comércio local desapareceu, fazendo com que algumas cidades sofressem uma emigração massiva.
+					</p>
+					<p>
+						Foram tempos difíceis, até que surgiu a ideia de convencer as pessoas a relembrarem do sentimento de liberdade 
+						idealizado pelos jovens americanos das décadas de 50 e 60, que em suas motos Harley Davidson e Indian, 
+						aventuravam-se pelas estradas em busca das praias do Pacífico, deixando de lado os costumes conservadores da 
+						costa leste dos Estados Unidos, à procura da ensolarada e liberal Califórnia.
+					</p>
+					
+				</div>
+			</div>
+
+			<div class="item" id="sol" data-target="sol">
+				<div class="item-img">
+					<img src="img/sol.jpg" alt="Sol">
+					<h2>Sol</h2>
+				</div>
+				<div class="item-info">
+					<h3>Características</h3>
+					<p>
+						O Sol é a estrela central do Sistema Solar. Todos os outros corpos do Sistema Solar, como planetas, planetas anões, 
+						asteroides, cometas e poeira, bem como todos os satélites associados a estes corpos, giram ao seu redor. 
+						Responsável por 99,86% da massa do Sistema Solar, o Sol possui uma massa 332.900 vezes maior que a da Terra, 
+						e um volume 1.300.000 vezes maior que o do nosso planeta.
+					</p>
+					<h3>Composição</h3>
+					<p>
+						É composto primariamente de hidrogênio (74% de sua massa, ou 92% de seu volume) e 
+						hélio (24% da massa solar, 7% do volume solar), com traços de outros elementos, 
+						incluindo ferro, níquel, oxigênio, silício, enxofre, magnésio, néon, cálcio e crômio.
+					</p>
+
+				</div>
+			</div>
+
+			<div class="item" id="verde" data-target="verde">
+				<div class="item-img">
+					<img src="img/verde.jpg" alt="Verde">
+					<h2>Florestas</h2>
+				</div>
+				<div class="item-info">
+					<h3>Características</h3>
+					<p>
+						Floresta é uma área com alta densidade de árvores. Segundo dados da Organização das 
+						Nações Unidas para a Alimentação e a Agricultura, as florestas ocupavam em 2006 cerca de 
+						4 bilhões de hectares ou aproximadamente 30% da superfície terrestre.As florestas são vitais
+						para a vida do ser humano, devido a muitos fatores principalmente de ordem climática.
+						As florestas são o ecossistema terrestre dominante da Terra e são distribuídas ao redor do globo.
+					</p>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="sobre" id="sobre" data-group="sobre">
+		<div class="container">
+			<h1>Sobre</h1>
+			<ul class="tab-menu">
+				<li><a href="#sobre-info" data-click="sobre-info">Informações</a></li>
+				<li><a href="#politica" data-click="politica">Política</a></li>
+				<li><a href="#objetivo" data-click="objetivo">Objetivo</a></li>
+			</ul>
+			<div class="item" data-target="sobre-info">
+				<div class="item-img">
+					<img src="img/sobre.jpg" alt="Sobre">
+					<h2>Sobre</h2>
+				</div>
+				<div class="item-info">
+					<h3>Sobre nós:</h3>
+					<p>
+						Tabs é uma empresa com um modelo de negócios para divulgação de informações, onde a receita provém doações e colaborações. 
+						Em setembro de 2020, foi criado como sendo uma estrutura base de um curso, assim unindo o conhecimento adquirindo com a criatividade da equipe 
+						fazendo com que o projeto se tornasse algo maior. 
+					</p>
+				</div>
+			</div>
+
+			<div class="item" data-target="politica">
+				<div class="item-img">
+					<img src="img/politicas.jpg" alt="Políticas da empresa">
+					<h2>Políticas</h2>
+				</div>
+				<div class="item-info">
+					<h3>Políticas da empresa:</h3>
+					<p>
+						O Tabs não permite o uso do nome em título de blogs ou de outras plataformas, exceto como uma referência descritiva a marca ou seus serviços. 
+						Não é permitido o uso dos logotipos em blogs, exceto conforme permitido para membros da plataforma, conforme permitido nestas Diretrizes.
+					</p>
+					<p>
+						O Tabs não permite o uso do nome em título de blogs ou de outras plataformas, exceto como uma referência descritiva a marca ou seus serviços. 
+						Não é permitido o uso dos logotipos em blogs, exceto conforme permitido para membros da plataforma, conforme permitido nestas Diretrizes.
+					</p>
+				</div>
+			</div>
+
+			<div class="item" data-target="objetivo">
+				<div class="item-img">
+					<img src="img/goal.jpg" alt="Objetivos">
+					<h2>Objetivos</h2>
+				</div>
+				<div class="item-info">
+					<h3>Nossos objetivos:</h3>
+					<p>
+						Para nós, uma premissa essencial é garantir que o planejamento seja construído em 
+						consistência com as crenças internas da empresa e direcionamentos de longo prazo. 
+						Nesse sentido, é importante ter definidos o propósito, visão e missão da organização. 
+					</p>
+					<p>
+						Sempre que pensamos na estratégia anual, em um objetivo a ser atingido ou ação a ser 
+						realizada, nos perguntamos: isso irá contribuir para a concretizar nossa visão no longo prazo? 
+						Isso está alinhado ao nosso propósito e missão? Esse alinhamento ajuda a transparecer para os 
+						colaboradores o significado do que estão fazendo hoje e como isso se conecta a um movimento maior.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<p>Tabs &copy;. Todos os direitos reservados 2020.</p>
+	</footer>
+
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
