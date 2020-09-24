@@ -12,17 +12,38 @@
 		document.documentElement.className += ' js';
 	</script>
 
-	<header class="header">	
-		<ul class="menu">
-			<li><a href="#animais">Animais</a></li>
-			<li><a href="#florestas">Florestas</a></li>
-			<li><a href="#sobre">Sobre</a></li>
-		</ul>
+	<header class="menu">
+		<div class="container space-between">
+			<a class="logo" href="#">Tabs</a>
+			<nav class="menu-nav mobile-menu">
+				<ul>
+					<li><a href="#animais">Animais</a></li>
+					<li><a href="#florestas">Florestas</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+				</ul>
+			</nav>
+			<span class="mobile-btn"></span>
+		</div>
 	</header>
+
+	<section class="introducao slide">
+		<div>
+			<img src="img/slide/slide-1.jpg" alt="Animais">
+			<h2>Animais</h2>
+		</div>
+		<div>
+			<img src="img/slide/slide-2.jpg" alt="Florestas">
+			<h2>Florestas</h2>
+		</div>
+		<div>
+			<img src="img/slide/slide-3.jpg" alt="Sobre">
+			<h2>Sobre</h2>
+		</div>
+	</section>
 
 	<section class="container animais" id="animais" data-group="animais">
 		<h1>Animais Espirituais</h1>
-		<ul class="tab-menu">
+		<ul class="tab-menu" data-anime="scroll">
 			<li><a href="#fox" data-click="fox">Fox</a></li>
 			<li><a href="#firefox" data-click="firefox">FireFox</a></li>
 			<li><a href="#wolf" data-click="wolf">Wolf</a></li>
@@ -98,7 +119,7 @@
 	<section class="florestas" id="florestas" data-group="florestas">
 		<div class="container">
 			<h1>Florestas Termais</h1>
-			<ul class="tab-menu">
+			<ul class="tab-menu" data-anime="scroll">
 				<li><a href="#estrada" data-click="estrada">Estrada</a></li>
 				<li><a href="#sol" data-click="sol">Sol</a></li>
 				<li><a href="#verde" data-click="verde">Verde</a></li>
@@ -174,7 +195,7 @@
 	<section class="sobre" id="sobre" data-group="sobre">
 		<div class="container">
 			<h1>Sobre</h1>
-			<ul class="tab-menu">
+			<ul class="tab-menu" data-anime="scroll">
 				<li><a href="#sobre-info" data-click="sobre-info">Informações</a></li>
 				<li><a href="#politica" data-click="politica">Política</a></li>
 				<li><a href="#objetivo" data-click="objetivo">Objetivo</a></li>
